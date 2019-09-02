@@ -1,0 +1,55 @@
+#!/bin/bash
+
+while read oldrev newrev ref
+do
+    if [[ $ref =~ .*/master$ ]];
+    then
+        cd ..
+        echo "Master ref received.  Deploying master branch to production..."
+        deployment_dir=$(readlink -- "deployment/current")
+        echo "Currently deployed: $deployment_dir"
+        temp_dir="/tmp/$(uuidgen)";
+        mkdir $temp_dir;
+        if [ "$deployment_dir" == "./blue/public" ]; then
+            echo "building for blue";
+            if [ -d $temp_dir ]; then
+                rm -r $temp_dir;
+            fi
+            git clone remote $temp_dir;
+            APP_ENV=prod composer install --working-dir=$temp_dir --prefer-dist --no-dev --no-suggest --optimize-autoloader --classmap-authoritative;
+
+            # Check whether everything went as planned.
+
+            if [ -d deployment/blue ]; then
+                rm -r deployment/blue;
+            fi
+            cp -R $temp_dir deployment/blue
+            if [ -L deployment/current ]; then
+                rm deployment/current;
+            fi
+            ln -s ./blue/public deployment/current;
+        else
+            echo "building for green";
+            if [ -d $temp_dir ]; then
+                rm -r $temp_dir;
+            fi
+            git clone remote $temp_dir;
+            APP_ENV=prod composer install --working-dir=$temp_dir --prefer-dist --no-dev --no-suggest --optimize-autoloader --classmap-authoritative;
+
+            # Check whether everything went as planned.
+
+            if [ -d deployment/green ]; then
+                rm -r deployment/green;
+            fi
+            cp -R $temp_dir deployment/green
+            if [ -L deployment/current ]; then
+                rm deployment/current;
+            fi
+            ln -s ./green/public deployment/current;
+        fi
+        echo "SetEnv APP_ENV prod" > deployment/current/.htaccess;
+        rm -rf $temp_dir;
+    else
+        echo "Ref $ref successfully received.  Doing nothing: only the master branch may be deployed on this server."
+    fi
+done
