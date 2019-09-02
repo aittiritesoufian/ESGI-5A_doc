@@ -108,6 +108,7 @@ Les groupes d'annonces sont regroupés en **Campagnes** auxquelles ont définis 
 
 # Créer une campagne
 
+chaque description contien max 90 charactères, l'url à afficher sera saisie (url affichée), on définit ensuite la véritable URL sur laquelle on envoi l'utilisateur, on peux avoir deux descriptions, on peux avoir plusieurs titres (coupés par "|").
 # Auditer une campagne
 
 # Optimiser une campagne
