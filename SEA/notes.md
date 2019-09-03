@@ -17,7 +17,7 @@ googleacademyforads => https://landing.google.com/academyforads/#?modal_active=n
 
 https://academy.exceedlms.com/student/path/3132/activity/4401
 
-Examen sur les bases de Google Ads.
+Examen sur les bases de Google Ads. ^
 
 # Introduction
 ## fonctionnement du SEA
@@ -97,7 +97,7 @@ Identifier les mots clés achetable dans Google Ads pour chacun des services.
 A la différence du SEO, on peux avoir plusieurs mots-clés pour une même page, car cela dépend du budget que l'on dédie.
 - La structure d'un compte ADS
 1. **Mots-clés** (achetés)
-2. **Annonces** (associés aux mots-clés, pas individuellement, les annones s'affichent aléatoirement sur l'ensemble des mots-clés que l'on possède).
+2. **Annonces** (associés aux mots-clés, pas individuellement, les annones s'affichent aléatoirement sur l'ensemble des mots-clés que l'on possède) (min 3 annonces).
 
 Le tout constitu un **Groupe d'annonce**.
 Dans un compte Google Ads ont peux posséder plusieurs Groupes d'annonces.
@@ -109,6 +109,123 @@ Les groupes d'annonces sont regroupés en **Campagnes** auxquelles ont définis 
 # Créer une campagne
 
 chaque description contien max 90 charactères, l'url à afficher sera saisie (url affichée), on définit ensuite la véritable URL sur laquelle on envoi l'utilisateur, on peux avoir deux descriptions, on peux avoir plusieurs titres (coupés par "|").
+
+## Annonces
+
+### extensions d'annonces
+
+On peux ajouter des extensions de liens annexes aux annonces elles permettent de diriger ves d'autres liens d'un même site.
+
+Ces liens annexes permettent d'augmenter le taux de clic.
+
+### extensions d'accroche
+
+permet d'ajouter des phrases permettant de convaincre de la petinence du résultat
+
+### extensions d'extrait de site
+
+Permet d'ajouter une liste détaillé des services proposés
+
+### extensions d'appel
+
+Permet d'ajouter un numéro de téléphone.
+
+### extensions de lieux
+
+Permet d'ajouter une adresse
+
+### extension de prix
+
+Permet d'ajouter un prix
+
+### extension d'application
+
+Lien vers une appli sur le store
+
+### extension de promotion
+
+Offre promotionnelle sur un site.
+
+### extension d'avis
+
+Gérée par Google, le site doit être un tiers de confiance (envoyer les avis à Google).
+
+## Définir un budget
+
+Pour mesuer la performance de ces campagnes, il faudrait observer Key Performance Indicators (Indicateurs de performances clés).
+
+Parmis les KPI:
+
+- CTR (Click Through Rate / Taux de clics)
+
+Il indique le taux de clic, on peux évaluer en fonction de l'enplacement de l'annonce si ce taux est bon ou pas et donc si notre campagne est efficace ou pas.
+
+- Nombre d'impressions
+- Quality Score
+- Taux de rebond
+- Nombre de page vue
+- Temps moyen de visite de page
+
+Indicateur de rentabilité:
+
+- taux d'acquisition
+- retour sur investissement publicitaire (ROAS = Return On Ad Spend, CA réalisé / Montant dépensé)
+- taux de rentabilité (ROI = Return On Investissment)
+
+## Ciblage
+
+### Réseau de recherche
+
+possibilité de définir un ciblage (personnes qui vont pouvoir voir l'annonce) => ciblage d'une audience.
+
+#### Liste de remarketing
+
+Liste de personnes ayant déjà visiter un site internet et que l'on souhaite recibler. (Ex: après avoir acheter sur Sarenza, avoir les pubs de ce même sites sur les autres canaux que je visite)
+
+#### Données démographique
+
+Dédié notre publicité à des classes démographiques (CSP, âge, sexe, ...)
+
+### Display
+
+options de ciblages:
+
+#### mots clés
+
+Être visible sur des pages contenant un mot-clé spécifique. (ciblage contextuel)
+
+#### emplacements
+
+Définir l'emplacement publicitaire sur une page, et sur les sites sur lesquels je souhaite être visible.
+
+#### themes
+
+Cibler les sites dans lesquels vont s'afficher mes annonces en fonction de leurs thème (sport, food, ....).
+
+#### centre d'intérêts et liste de remarketings
+
+cibler en fonction des centres d'intérêt des personnes qui visitent le site internet.
+
+as Réseau de Recherche
+
+#### données démographiques
+
+as Réseau de Recherche
+
+### Search + Display sélectif
+
+#### mots clés
+
+#### emplacement
+
+#### liste de remarketing
+
+ #### données démographiques
+
+## Créer une annonce
+
+
+
 # Auditer une campagne
 
 # Optimiser une campagne
