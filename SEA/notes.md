@@ -30,7 +30,7 @@ Système d'enchères par achat de mots clés (Real Time Billing = enchère en te
 
 ## SEO vs SEA.
 ### différences
-SEO coûte de l'argent dans la mise en place de la stratégie mais ne coûte rien dans la consommation du trafic, celle-ci est gratuit.
+SEO coûte de l'argent dans la mise en place de la stratégie mais ne coûte rien dans la consommation du trafic, celle-ci est gratuite.
 
 SEA coûte systématiquement le prix de l'enchère au CPC du mot clé acheté.
 
@@ -53,17 +53,18 @@ Initialement adWords consistuait un réseau uniquement basé sur les achats de m
 
 Depuis Google Ads, la plateforme est une plateforme centralisée pour les 4 réseaux de publicité de Google.
 
-La recherche et le Shopping, les objectifs sont de vendre, générer de la convertion ou des prospects.
+La **recherche** et le **Shopping**, les objectifs sont de vendre, générer de la convertion ou des prospects.
 
-La vidéo et le display permettent la visibilité et la notoriétée.
+La **vidéo** et le **display** permettent la visibilité et la notoriétée.
 ### Recherche
 Permet se rendre visible sur les résultats de recherche de Google.
 Inclut Maps.
-Inclut les "partenaires de recherches" (publicité dans les résultats de recherches des sites utilisant le moteurs de recherche Google pour les recherches internes).
+Inclut les "partenaires de recherches" (publicité dans les résultats de recherches des sites utilisant Google pour leurs moteur de recherches interne).
+
 ### Google Shopping
 Dédié aux e-commerçant souhaitant faire de la vente en ligne.
 ### Display
-Sites souhaitant généré des revenus avec des espaces publicitaires, ces sites confient leurs emplacements à Google Ad.
+Sites souhaitant généré des revenus avec des espaces publicitaires, ces sites confient leurs emplacements à Google AdSense.
 ### Vidéo
 Vidéos affiché sur Youtube au format vidéo.
 
@@ -85,19 +86,19 @@ La page doit être en accord avec la demande de l'utilisateur (dimension commerc
 
 Il est plus important de préviligier le Quality Score au montant de l'enchère, car si le résultat reste plus pertinent que le résultat dont l'enchère est la plus haute, il peut tout de même devenir premier résultat payant, car plus adapté à la demande de l'utilisateur.
 
-Toujours une desintation commerciale et non informative (à la différence du SEO).
+Toujours une destination commerciale et non informative (à la différence du SEO).
 # Définir sa stratégie
 Questions à ce poser 
-- Objectifs avec Google Ads ?
+- **Objectifs avec Google Ads** ?
 Vente ? visibilité ?
-- Où diffuser les annonces ?
+- **Où diffuser les annonces** ?
 Quelle cible géographique
-- Recherche de mots clés ?
+- **Recherche de mots clés** ?
 Identifier les mots clés achetable dans Google Ads pour chacun des services.
 A la différence du SEO, on peux avoir plusieurs mots-clés pour une même page, car cela dépend du budget que l'on dédie.
-- La structure d'un compte ADS
+- **La structure d'un compte ADS** :
 1. **Mots-clés** (achetés)
-2. **Annonces** (associés aux mots-clés, pas individuellement, les annones s'affichent aléatoirement sur l'ensemble des mots-clés que l'on possède) (min 3 annonces).
+2. **Annonces** (associés aux mots-clés, pas à un mot-clé individuellement, les annones s'affichent aléatoirement sur l'ensemble des mots-clés que l'on possède) (min 3 annonces).
 
 Le tout constitu un **Groupe d'annonce**.
 Dans un compte Google Ads ont peux posséder plusieurs Groupes d'annonces.
@@ -108,15 +109,15 @@ Les groupes d'annonces sont regroupés en **Campagnes** auxquelles ont définis 
 
 # Créer une campagne
 
-chaque description contien max 90 charactères, l'url à afficher sera saisie (url affichée), on définit ensuite la véritable URL sur laquelle on envoi l'utilisateur, on peux avoir deux descriptions, on peux avoir plusieurs titres (coupés par "|").
+chaque description contien max 90 charactères, l'url à afficher sera saisie (url affichée), on définit ensuite la véritable URL sur laquelle on envoi l'utilisateur au clic sur l'annonce, on peux avoir deux descriptions, on peux avoir plusieurs titres (coupés par "|").
 
 ## Annonces
 
 ### extensions d'annonces
 
-On peux ajouter des extensions de liens annexes aux annonces elles permettent de diriger ves d'autres liens d'un même site.
+On peux ajouter des extensions de liens annexes aux annonces elles permettent de diriger vers d'autres liens d'un même site.
 
-Ces liens annexes permettent d'augmenter le taux de clic.
+Ces liens annexes permettent d'augmenter le taux de clic en proposant des résultats similaires sur le site.
 
 ### extensions d'accroche
 
@@ -152,13 +153,13 @@ Gérée par Google, le site doit être un tiers de confiance (envoyer les avis �
 
 ## Définir un budget
 
-Pour mesuer la performance de ces campagnes, il faudrait observer Key Performance Indicators (Indicateurs de performances clés).
+Pour mesuer la performance de ces campagnes, il faudrait observer Key Performance Indicators (KPI, Indicateurs de performances clés).
 
 Parmis les KPI:
 
 - CTR (Click Through Rate / Taux de clics)
 
-Il indique le taux de clic, on peux évaluer en fonction de l'enplacement de l'annonce si ce taux est bon ou pas et donc si notre campagne est efficace ou pas.
+Il indique le taux de clic, on peux l'évaluer en fonction de l'emplacement de l'annonce si ce taux est bon ou pas et donc si notre campagne est efficace ou pas.
 
 - Nombre d'impressions
 - Quality Score
@@ -180,7 +181,7 @@ possibilité de définir un ciblage (personnes qui vont pouvoir voir l'annonce) 
 
 #### Liste de remarketing
 
-Liste de personnes ayant déjà visiter un site internet et que l'on souhaite recibler. (Ex: après avoir acheter sur Sarenza, avoir les pubs de ce même sites sur les autres canaux que je visite)
+Liste de personnes ayant déjà visiter un site internet et que l'on souhaite recibler. (Ex: après avoir acheté sur Sarenza, avoir les pubs de ce même sites sur les autres réseaux que je visite)
 
 #### Données démographique
 
@@ -232,22 +233,22 @@ as Réseau de Recherche
 
 # Autre
 ## Native Ads
-Contenu intégrés: dans les sites de presses, on retrouve des propositions d'articles qui sont issus de régies publicitaires et qui fonctionnent au CPC et s'affiche dans les sites prévoyant des espaces qu'ils mettent a disposition de ses régies.
+Contenu intégrés: dans les sites de presse, on retrouve des propositions d'articles qui sont issus de régies publicitaires et qui fonctionnent au CPC et s'affiche dans les sites prévoyant des espaces qu'ils mettent a disposition de ses régies.
 
 ## A garder en tête
 ### ROI (Retour sur investissement)
 Google Ads était lancé en 2002-2003, peu de demande sur l'achat de mot clés, pas de concurrence sur internet et peu de site e-commerce.
 
-Le ROI dépend donc de la concurrence essentiellement.
+Le ROI dépend donc de la concurrence sur les mots-clés essentiellement.
 ### Fraude
 MFA : Made For AdSense.
-Des sites étaient créer pour n'afficher que des publicités adSense. Le référencement était optimiser afin qu'il ressortent correctement dans les résultats de recherches, et ainsi générais des revenus à chaque affichage de la page.
+Des sites étaient créer pour n'afficher que des publicités adSense. Le référencement était optimisé afin qu'il ressortent correctement dans les résultats de recherches, et ainsi générais des revenus à chaque affichage de la page. => pas frauduleux en soit
 
-Utilisation de Bots qui ensuite crawlais sur les différents sites avec les publicités et déclenchent des clics.
+Mais l'utilisation de Bots qui crawlais sur les différents sites avec les publicités et déclenchent des clics constituait une fraude.
 ### Législatif
 Utilisation d'une marque dans un mot clé : Les marques sont en droit de demandé explicitement à Google d'interdire l'utilisation d'un mot clé à son nom, ou n'autoriser que certains sites particuliers.
 
-La marque ne peux pas l'empêcher de l'acheter, mais il peux empêcher l'utilisation du nom dans le titre de la page.
+La marque ne peux pas l'empêcher de l'acheter, mais il peux empêcher l'utilisation du nom dans le titre de l'annonce.
 ### Abus de position dominante
-Google représente parfois une position dominante du fait que la même entreprise gère la plupart des services et qu'elle préviligie ses services aux autres : Google Shopping.
+Google représente parfois une position dominante du fait que la même entreprise gère une multitude de services et qu'elle préviligie ses services aux autres, exemple avec Google Shopping, privilégié sur les site comparateur de produits sur internet.
 
