@@ -292,31 +292,31 @@ Un mot clé peut être acheté de différentes manières
 
 écrite avec des crochet et indique que l'on veux apparaître avec cette expression précise :
 
-*"[école commerce]"*
+*[école commerce]*
 
 Cela inclut l'expression, le singulier/pluriel, les accents, l'inverse dans l'odre des mots, les mots de liaisons "de","la"...
 
 - **expression exacte**
 
-*""école de commerce""*
+*"école de commerce"*
 
 Ne fonctionne qu'avec l'expression entière, mais peut être présente dans une phrase.
 
 - **Requête large modifiée**
 
-*"+école +commerce"*
+*+école +commerce*
 
 Identique à la requête large, sans les synonymes
 
 - **Requête large** (A NE JAMAIS UTILISER !!!!!!) => sauf cas rare.
 
-*"école commerce"*
+*école commerce*
 
 Ressort dans les synonymes de ces termes, pour le terme contenant "école" et pour les termes contenant "commerce".
 
 - **Mot clé négatif**
 
-*"-gratuit"*
+*-gratuit*
 
 Permet de retirer des mots ne correspondant pas à votre axe, et permet de se retirer des recherches dans lesquelles il y a ces mots-clés.
 
