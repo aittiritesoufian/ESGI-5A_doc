@@ -158,6 +158,7 @@ Pour mesuer la performance de ces campagnes, il faudrait observer Key Performanc
 Parmis les KPI:
 
 - CTR (Click Through Rate / Taux de clics)
+- CPA (Coût par acquisition)
 
 Il indique le taux de clic, on peux l'évaluer en fonction de l'emplacement de l'annonce si ce taux est bon ou pas et donc si notre campagne est efficace ou pas.
 
@@ -225,7 +226,101 @@ as Réseau de Recherche
 
 ## Créer une annonce
 
+Objectif de campagne : créer une campagne sans.
 
+#### Dynamics Search Ads (DSA),  paramètres d'annonces dynamiques :
+
+Google détermine à partir du contenu du site péblicité quelle recherche correspond le mieux au site en question.
+
+Le chiffre du budget est définis en $ / jours, 30,4 jours par mois.
+
+#### Modes de diffusions
+
+Standard : diffusé petit à petit au long de la journée.
+
+Accélérée : diffusé en continue jusqu'a épuisement du budget.
+
+Google s'autorise à dépasser le budget journalier, mais ne dépassera jamais le budget mensuel.
+
+#### Stratégies d'enchères
+
+##### CPA Cible
+
+définir un objectif de taux d'acquisition.
+
+Google observe pour cette stratégie, l'historique de conversion sur les mots-clés donnés dans la campagne, puis sélectionne les plus intéressant sur lesquels Google mise pour favoriser les actions de conversions.
+
+##### ROAS cible
+
+Objectif de vente et de coup faible d'acquisition.
+
+##### Maximiser les clics
+
+favoriser le clic par les utilisateurs.
+
+##### Maximiser les convertions
+
+maximiser les conversions sans tenir compte du critère de rentabilité ou de retour sur investissement
+
+##### Maximiser la valeur de conversion
+
+Google enchéri principalement sur les mots-clés les plus suceptible de créer de la convertion.
+
+##### Taux d'impression cible
+
+Volonté d'apparaître le plus souvent sur des emplacements de bon niveaux.
+
+##### Enchère au CPC manuel
+
+#### Conversions
+
+Permet de définir des des types de conversions à réaliser (vente, visibilité)
+
+#### Calendrier de diffusion
+
+Définir des plages et des horaires de diffusions à préviligier
+
+#### Rotation des annonces
+
+#### Extensions d'annonces
+
+peuvent être définis maintenant pour l'ensemble de la campagne
+
+Un mot clé peut être acheté de différentes manières
+
+- **mots-clés exacte**
+
+écrite avec des crochet et indique que l'on veux apparaître avec cette expression précise :
+
+*"[école commerce]"*
+
+Cela inclut l'expression, le singulier/pluriel, les accents, l'inverse dans l'odre des mots, les mots de liaisons "de","la"...
+
+- **expression exacte**
+
+*""école de commerce""*
+
+Ne fonctionne qu'avec l'expression entière, mais peut être présente dans une phrase.
+
+- **Requête large modifiée**
+
+*"+école +commerce"*
+
+Identique à la requête large, sans les synonymes
+
+- **Requête large** (A NE JAMAIS UTILISER !!!!!!) => sauf cas rare.
+
+*"école commerce"*
+
+Ressort dans les synonymes de ces termes, pour le terme contenant "école" et pour les termes contenant "commerce".
+
+- **Mot clé négatif**
+
+*"-gratuit"*
+
+Permet de retirer des mots ne correspondant pas à votre axe, et permet de se retirer des recherches dans lesquelles il y a ces mots-clés.
+
+Pour afficher une pub uniquement en mobile, on va dans la section "Appareil" de la campange et ont défini le taux d'ajustement d'enchère à -100% afin qu'aucun affichage ne soit fait sur les autres devices.
 
 # Auditer une campagne
 
