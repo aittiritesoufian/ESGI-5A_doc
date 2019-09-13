@@ -104,3 +104,21 @@ m := map[string]int{
     "keyC":2,
 }
 ```
+
+# projet
+Team de 3-4 personnes.
+API à développer autour d'un système de vote.
+Sécurisation avec JWT
+
+On se revoit le 30.
+
+Deux notes : 
+- bonnes pratiques de code
+- performances
+
+L'analyser pour les perfs s'appel GoReporter (Github)
+ Voir le Readme du projet pour le cahier des charges
+
+il faudra ilmplémenter l'interface JSON -> https://golang.org/pkg/encoding/json/
+A faire avant le dimanche 29 Septembre !
+ORM : https://gorm.io/docs/
